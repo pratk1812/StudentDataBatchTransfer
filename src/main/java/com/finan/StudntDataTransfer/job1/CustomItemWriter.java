@@ -1,6 +1,6 @@
 package com.finan.StudntDataTransfer.job1;
 
-import static com.finan.StudntDataTransfer.job1.MyJobConfig.*;
+import static com.finan.StudntDataTransfer.job1.MyJobConfig1.*;
 
 import java.io.BufferedWriter;
 import java.io.File;
@@ -16,7 +16,7 @@ import com.finan.StudntDataTransfer.entity.StudentEntity;
 
 public class CustomItemWriter implements ItemWriter<StudentEntity> {
 
-	private static Logger log = LogManager.getLogger(MyJobConfig.class);
+	private static Logger log = LogManager.getLogger(MyJobConfig1.class);
 
 	private File file;
 	

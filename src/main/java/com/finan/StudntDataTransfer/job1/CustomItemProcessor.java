@@ -1,6 +1,6 @@
 package com.finan.StudntDataTransfer.job1;
 
-import static com.finan.StudntDataTransfer.job1.MyJobConfig.*;
+import static com.finan.StudntDataTransfer.job1.MyJobConfig1.*;
 
 import java.io.StringReader;
 import java.text.ParseException;

@@ -26,9 +26,9 @@ import com.finan.StudntDataTransfer.repo.StudentRepository;
 
 
 @Configuration
-public class MyJobConfig extends DefaultBatchConfiguration {
+public class MyJobConfig1 extends DefaultBatchConfiguration {
 
-	private static Logger log = LogManager.getLogger(MyJobConfig.class);
+	private static Logger log = LogManager.getLogger(MyJobConfig1.class);
 	
 	private static final int chunkSize = 10;
 	private static final String filepath = "src/main/java/com/finan/StudntDataTransfer/students1.txt";

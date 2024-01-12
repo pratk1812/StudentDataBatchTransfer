@@ -81,6 +81,6 @@ public class StudentEntity {
 
 	@Override
 	public String toString() {
-		return "StudentEntity [id=" + id + ", xmlString=" + xmlString + ", status=" + status + ", date=" + date + "]";
+		return bean.toString();
 	}
 }

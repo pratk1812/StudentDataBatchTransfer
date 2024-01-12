@@ -18,7 +18,7 @@ public class StudntDataTransferApplication {
 
 	@Bean
 	CommandLineRunner runner(JobLauncher jobLauncher, 
-			@Qualifier("myJob2") Job myJob2) {
-		return args -> jobLauncher.run(myJob2, new JobParameters());	
+			@Qualifier("myJob3") Job myJob) {
+		return args -> jobLauncher.run(myJob, new JobParameters());	
 	}
 }
